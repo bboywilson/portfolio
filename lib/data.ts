@@ -77,7 +77,7 @@ export const credentials: Credential[] = [
 ]
 
 export const platformLinks = {
-  lancers: 'https://www.lancers.jp',     // TODO: 実際のプロフィールURLに更新
-  crowdworks: 'https://crowdworks.jp',   // TODO: 実際のプロフィールURLに更新
+  lancers: 'https://www.lancers.jp/profile/wilson_lc',
+  crowdworks: 'https://crowdworks.jp/public/employees/5913149',
   github: 'https://github.com/bboywilson',
 }
