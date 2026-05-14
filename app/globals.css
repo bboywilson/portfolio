@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&family=Noto+Serif+JP:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --earth-bg: #FAF7F2;
+  --earth-section: #F1E8D9;
+  --earth-border: #E5DED4;
+  --earth-accent: #B85C38;
+  --earth-text: #2D2A26;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--earth-bg);
+  color: var(--earth-text);
+  font-family: 'Noto Sans JP', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.section-label {
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  color: #B85C38;
+  font-weight: 500;
+}
