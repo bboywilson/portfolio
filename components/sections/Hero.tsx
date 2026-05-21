@@ -34,9 +34,7 @@ export default function Hero() {
 
         {/* Sub copy */}
         <p className="text-[14px] md:text-[15px] leading-relaxed text-[#6B6560] mb-10 max-w-xl mx-auto">
-          Excel VBA・Google Apps Script・AI連携で、繰り返しの作業を自動化します。
-          <br className="hidden md:block" />
-          操作マニュアル付きで納品するので、エンジニアでなくても安心して使えます。
+          Webアプリ開発から業務自動化まで。Firebase・Next.js・AI活用で、迅速かつ安心して使える成果物をお届けします。納品物には必ず操作マニュアルを添付します。
         </p>
 
         {/* CTA buttons */}
@@ -59,13 +57,14 @@ export default function Hero() {
         {/* Quick stats */}
         <div className="mt-16 grid grid-cols-3 gap-4 max-w-sm mx-auto">
           {[
-            { value: '15年', label: '教員経験' },
-            { value: '3〜5×', label: '納品スピード' },
-            { value: '100%', label: 'マニュアル付' },
+            { value: '3', label: 'プロジェクト', sub: '全て自作・公開中' },
+            { value: '3〜5×', label: '納品スピード', sub: 'Claude Code活用' },
+            { value: '100%', label: 'マニュアル付き', sub: '必ず添付' },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <div className="font-serif text-xl font-medium text-[#B85C38]">{stat.value}</div>
               <div className="text-[11px] text-[#6B6560] mt-0.5">{stat.label}</div>
+              <div className="text-[10px] text-[#9B9590] mt-0.5">{stat.sub}</div>
             </div>
           ))}
         </div>

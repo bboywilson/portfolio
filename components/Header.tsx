@@ -33,7 +33,7 @@ export default function Header() {
           href="#"
           className="font-serif text-[15px] font-medium text-[#2D2A26] tracking-wide"
         >
-          portfolio
+          Wilson Portfolio
         </a>
 
         {/* Desktop nav */}

@@ -22,6 +22,15 @@ export type Credential = {
 
 export const projects: Project[] = [
   {
+    id: 'campaign-manager',
+    emoji: '🔐',
+    title: 'campaign-manager',
+    description: 'Firebase認証とセキュリティルール設計を実践するために構築したキャンペーン管理ツール。ロールベースアクセス制御を実装。',
+    detail: 'Firebase認証・セキュリティ設計',
+    tags: ['Firebase Auth', 'Firestore', 'Security Rules', 'Next.js'],
+    githubUrl: 'https://github.com/bboywilson',
+  },
+  {
     id: 'dance-schedule',
     emoji: '📅',
     title: 'dance-schedule',
@@ -40,18 +49,14 @@ export const projects: Project[] = [
     tags: ['Python', 'openpyxl', '自動化'],
     githubUrl: 'https://github.com/bboywilson',
   },
-  {
-    id: 'campaign-manager',
-    emoji: '🔐',
-    title: 'campaign-manager',
-    description: 'Firebase認証とセキュリティルール設計を実践するために構築したキャンペーン管理ツール。ロールベースアクセス制御を実装。',
-    detail: 'Firebase認証・セキュリティ設計',
-    tags: ['Firebase Auth', 'Firestore', 'Security Rules', 'Next.js'],
-    githubUrl: 'https://github.com/bboywilson',
-  },
 ]
 
 export const skills: Skill[] = [
+  {
+    icon: '🌐',
+    title: 'Web開発',
+    items: ['Next.js / React', 'Firebase', 'LINE Messaging API', 'Vercel デプロイ'],
+  },
   {
     icon: '📋',
     title: '業務自動化',
@@ -61,11 +66,6 @@ export const skills: Skill[] = [
     icon: '🤖',
     title: 'AI活用',
     items: ['ChatGPT API', 'Claude API', 'チャットボット開発', 'AI業務効率化'],
-  },
-  {
-    icon: '🌐',
-    title: 'Web開発',
-    items: ['Next.js / React', 'Firebase', 'LINE Messaging API', 'Vercel デプロイ'],
   },
 ]
 

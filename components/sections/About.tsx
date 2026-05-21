@@ -25,17 +25,12 @@ export default function About() {
         <div>
           <p className="section-label mb-3">ABOUT</p>
           <h2 className="font-serif text-2xl md:text-3xl font-medium text-[#2D2A26] leading-relaxed mb-6">
-            元高校数学教員（15年）から、
-            <br />
-            エンジニアへ。
+            複雑な業務を、シンプルに整理する。
           </h2>
 
           <div className="space-y-4 text-[14px] leading-relaxed text-[#4A4540]">
             <p>
-              数学を15年教えてきた経験から、複雑な業務をシンプルに整理することが得意です。「誰にでもわかりやすく伝える」を大切にしており、納品物には必ず操作マニュアルを添付します。
-            </p>
-            <p>
-              Claude Codeを活用した高速開発で、通常の3〜5倍速での納品が可能です。AI・最新技術への積極的なキャッチアップを続けながら、お客様の業務改善に取り組んでいます。
+              「誰にでもわかりやすく伝える」を大切にしており、納品物には必ず操作マニュアルを添付します。Claude Code を活用した高速開発で、通常の3〜5倍速での納品が可能です。AI・最新技術への積極的なキャッチアップを続けながら、お客様の業務改善に取り組んでいます。
             </p>
           </div>
 
@@ -57,7 +52,6 @@ export default function About() {
           {/* Timeline highlight */}
           <div className="mt-8 border-l-2 border-[#E8DDD0] pl-4 space-y-3">
             {[
-              { year: '〜2022', text: '高校数学教員（15年）' },
               { year: '2023', text: '基本情報技術者・Java Bronze・AWS CLF取得' },
               { year: '2024〜', text: 'Claude Code活用・副業エンジニアとして活動中' },
             ].map((item) => (
