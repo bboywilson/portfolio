@@ -43,11 +43,12 @@ export const projects: Project[] = [
   {
     id: 'python-schedule',
     emoji: '📊',
-    title: 'Python学習スケジュール',
-    description: '学習計画の入力を受け取り、週ごとのスケジュールをExcelファイルとして自動生成するツール。',
-    detail: '自動化・Excel生成',
-    tags: ['Python', 'openpyxl', '自動化'],
+    title: '資格学習通知Bot',
+    description: '資格学習のスケジュールを管理し、毎朝6時に学習範囲と試験日カウントダウンをLINEに自動通知。日曜には進捗率もレポート。書籍ベースで学習計画を自動生成する実運用中のシステム。',
+    detail: 'GAS × LINE API・実運用中',
+    tags: ['GAS', 'LINE API', 'スプレッドシート', 'Python', '自動化'],
     githubUrl: 'https://github.com/bboywilson',
+    status: '実運用中',
   },
 ]
 
